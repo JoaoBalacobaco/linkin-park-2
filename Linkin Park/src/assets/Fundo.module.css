@@ -1,0 +1,25 @@
+.fundo{
+    background: url(./fotos/background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 98vw;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    border-radius: 15px;
+}
+.fundo2{
+    background-color: rgba(0, 0, 0, 0.300);
+    height: 100vh;
+    border-radius: 15px;
+}
+.rodape{
+    margin-top: 0.5rem;
+    height: 7vh;
+    border-top: 0.5rem solid black;
+}
+.rodape img{
+    margin-right: 3rem;
+    float: right;
+    width: 5vh;
+}

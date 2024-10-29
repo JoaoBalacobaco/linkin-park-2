@@ -1,0 +1,200 @@
+.fundo {
+  width: 98vw;
+  border-top: 0.5rem solid rgb(49, 49, 49);
+  border-bottom: 0.5rem solid rgb(49, 49, 49);
+  background-color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: center;
+}
+.fundo video {
+  width: 99%;
+}
+.musicas {
+  height: 39.58vh;
+  width: 60%;
+  margin: 0 auto;
+
+  @media (max-width: 711px) {
+    width: 87%;
+  }
+  @media (max-width: 700px) {
+    height: 50.58vh;
+  }
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin-top: 1rem;
+}
+.item1 {
+  grid-column: 1/-1;
+  @media (max-width: 700px) {
+    grid-column: 1/-1;
+  }
+  background-image: url("../assets/fotos/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+.item1a{
+  background-color: rgba(165, 42, 42, 0.37);
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item2 {
+  grid-column: 1/4;
+  border-radius: 12px;
+  background-image: url("../assets/fotos/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (max-width: 700px) {
+    grid-column: 1/-1;
+  }
+}
+.item2a{
+  background-color: rgba(165, 81, 42, 0.377);
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.item3 {
+  grid-column: 4/7;
+  grid-row: 2/5;
+  border-radius: 12px;
+  background-image: url("../assets/fotos/5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (max-width: 700px) {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+  }
+
+ 
+}
+.item3a{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  background-color: rgba(93, 95, 238, 0.11);
+}
+.item3a img {
+  width: 100%;
+  @media (max-width: 700px) {
+    height: 90%;
+    width: 90%;
+  }
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+
+.item4 {
+  grid-column: 1/4;
+  border-radius: 12px;
+  background-image: url("../assets/fotos/FUNDO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (max-width: 700px) {
+    grid-column: 1/-1;
+  }
+}
+.item4a{
+  background-color: rgba(253, 66, 213, 0.404);
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item5 {
+  grid-column: 1/4;
+  border-radius: 12px;
+  background-image: url("../assets/fotos/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (max-width: 700px) {
+    grid-column: 1/-1;
+  }
+}
+.item5a{
+  background-color: rgba(36, 0, 168, 0.438);
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item6 {
+  grid-column: 1/-1;
+  border-radius: 12px;
+  background-image: url("../assets/fotos/6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (max-width: 700px) { 
+    grid-column: 1/-1;
+  }
+}
+.item6a{
+  background-color: rgba(165, 42, 144, 0.37);
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.musicas h2{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  margin-left: 0.5rem;
+}
+.turne{
+  background-color: rgb(202, 209, 216);
+  width: 5vh;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.turne:hover{
+  width: 5.5vh;
+  transition: 0.3s;
+  background-color: aliceblue;
+}
+.turne img{
+  width: 100%;
+}
