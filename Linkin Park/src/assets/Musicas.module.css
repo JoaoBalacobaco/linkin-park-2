@@ -1,0 +1,10 @@
+.seila{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fundo{
+    height: 98%;
+    background-color: black;
+}
