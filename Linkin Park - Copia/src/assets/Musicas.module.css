@@ -1,0 +1,43 @@
+.seila {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fundo {
+  display: grid;
+  grid-template-columns: repeat(11 1fr);
+  color: white;
+  height: auto;
+  width: 98%;
+  border-radius: 0px 0px 15px 15px;
+  background-color: black;
+}
+
+/* Post.jsx */
+
+.fundop {
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 98%;
+}
+.musicas {
+  background-color: rgb(51, 51, 51);
+  height: 10vh;
+  display: flex;
+  margin-bottom: 1vh;
+  display: flex;
+  align-items: center;
+}
+.musicas img {
+  width: 10%;
+  height: 90%;
+  border-radius: 18px;
+  margin-left: 1%;
+}
+.titulo{
+    width: 50%;
+}
+.titulo h6{
+    color: rgb(192, 192, 192);
+}
